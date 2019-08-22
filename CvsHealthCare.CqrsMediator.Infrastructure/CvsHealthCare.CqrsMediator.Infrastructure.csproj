@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CvsHealthCare.CqrsMediator.Application\CvsHealthCare.CqrsMediator.Application.csproj" />
+    <ProjectReference Include="..\CvsHealthCare.CqrsMediator.Common\CvsHealthCare.CqrsMediator.Common.csproj" />
+  </ItemGroup>
+
+</Project>
